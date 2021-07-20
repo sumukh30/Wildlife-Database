@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(sholas.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    
+}
+.welc{
+    text-align: center;
+}
+.go{
+     position: relative;
+    top:-30px;
+}
+#sr{
+    float: right;
+    padding: 6px;
+  border: 1px solid black;
+  margin-top: 75px;
+  margin-right: 40px;
+    font-style: italic;
+  font-size: 15px;
+}
+#g{
+    float: right;
+    padding: 6px;
+  border: 1px solid black;
+  margin-top: 110px;
+  margin-right: -215px;
+    
+}
+#g:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: none;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu ul li{
+    width: 115px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu ul li a{
+    color: saddlebrown;
+    text-decoration: none;
+}
+.active,.menu ul li:hover{
+    background-color: darkgrey;
+  
+    border-radius: 30px;
+   transition: 0.5s;
+    
+}
+.menu ul li a:hover{
+    color: aqua;
+    text-decoration: underline;
+    
+}
+.menu .fa{
+    margin-right: 7px;
+}
+.submen{
+    display: none;
+}
+.menu ul li:hover .submen{
+    display:block;
+    position: absolute;
+    background-color: darkgrey;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+.menu ul li:hover .submen ul{
+    display: block;
+    margin: 10px;
+   
+}
+.menu ul li:hover .submen ul li{
+    text-align: right;
+    width: 130px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1px dotted #fff;
+}
+.menu ul li:hover .submen ul li:last-child{
+    border-bottom: none;
+}
+.vb{
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: black;
+}
+.socialicons{
+    height: 45%;
+    width: 30px;
+    
+    background: yellow;
+    
+    text-align: center;
+    padding-top:0;
+    bottom: 0;
+    position: absolute;
+}
+.socialicons .fa{
+    margin: 15px -3px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+.socialicons .fa:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.content{
+    text-align: center;
+    opacity: 200%;
+}
+.content #sa{
+    color: lightblue;
+}
+.content #hdr{
+    color: lightgreen;
+    text-decoration: underline;
+}
+.content #uses{
+    color: lightyellow;
+    text-decoration: underline;
+}
+.uselist{
+    color: lightblue;
+    text-align: left;
+    line-height: 1.5;
+}
+.foot{
+    text-align: center;
+    color: #fff;
+    background-color: lightpink;
+}
+.foot #tb{
+    font-style: italic;
+}
+footer button{
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 150px;
+    background-color: green;
+    color:#fff;
+
+}
+
+footer button:hover{
+    cursor: pointer;
+    background-color: grey;
+    transition: 0.3s;
+    
+}

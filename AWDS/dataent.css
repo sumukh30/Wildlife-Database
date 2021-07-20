@@ -1,0 +1,33 @@
+body
+{
+	text-align: center;
+	background-image: url(elam.jpg);
+	background-size: cover;
+	background-position: center;
+	color: cyan;
+}
+.entering a
+{
+
+	text-decoration: none;
+	color: coral;
+	text-align: center;
+	padding: 20px;
+	border: 15px;
+	line-height: 50px;
+	font-size: 19px;
+
+}
+.entering a:hover{
+	color: lawngreen;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+body button a{
+	text-decoration: none;
+}
+body button a:hover{
+	background-color: lightblue;
+	color: #fff;
+	transition: 0.2s;
+}
